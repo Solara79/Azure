@@ -1,0 +1,7 @@
+az vm create \
+  --name myVM \
+  --resource-group da3bc6d5-bfa5-41c3-93fd-7001bbe32d5c \
+  --image Win2016Datacenter \
+  --size Standard_DS2_v2 \
+  --location eastus \
+  --admin-username azureuser
